@@ -21,9 +21,9 @@ Make sure you have NodeJS installed in your machine first, The installation inst
 
 Open up your terminal and bootstrap a new React app by: `npx create-react-app`
 
-Then go to that project folder, and write this command via terminal from your project folder: `npm install react-router-dom`
+Then go to that project folder, and write this command via terminal from your project folder: `npm i react-router-dom`
 
-(For more details about React-Router, visit: https://reactrouter.com/en/main )
+(For more details, visit: https://reactrouter.com/en/main and https://www.npmjs.com/package/react-router-dom )
 
 ## To Install json-server-npm and json-server-auth-npm
 
@@ -35,15 +35,7 @@ With Restricted Route and run from different Port from another terminal: `npm js
 
 (You must open a second terminal to run the json-server and json-server-auth via different Port number because the React app is already running on Port: 3000 on your localhost)
 
-(For more details, visit:  https://www.npmjs.com/package/json-server
-
-https://www.npmjs.com/package/json-server-auth )
-
-## To Install react-router-dom-npm
-
-Open up your terminal from your project folder and run: `npm i react-router-dom`
-
-(For more details, visit: https://www.npmjs.com/package/react-router-dom )
+(For more details, visit:  https://www.npmjs.com/package/json-server and https://www.npmjs.com/package/json-server-auth )
 
 ## To Integrate JSON Web Tokens (JWT) for the Login in your Project
 
