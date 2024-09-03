@@ -45,7 +45,17 @@ With Restricted Route and run from different Port from another terminal: `npm js
 
 Visit: https://jwt.io/#debugger-io
 
-## About Netlify (Frontend-Deployment)
+## To Setup .env File
+
+you must create an .env file in your project folder and save your API key or other sensetive info.
+
+Example: REACT_APP_HOST=http://localhost:8000
+
+REACT_APP_GUEST_LOGIN=arnob@example.com
+
+REACT_APP_GUEST_PASSWORD=learnreact
+
+## To Deploy on Netlify (Frontend-Deployment)
 
 Visit: https://app.netlify.com/
 
@@ -85,7 +95,7 @@ To change domain name:
 
 - https://www.netlify.com/blog/2019/01/16/redirect-rules-for-all-how-to-configure-redirects-for-your-static-site/
 
-## About Render (Backend-Deployment)
+## To Deploy on Render (Backend-Deployment)
 
 Visit: https://render.com/
 
