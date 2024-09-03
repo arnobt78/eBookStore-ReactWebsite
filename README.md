@@ -7,6 +7,8 @@ eBookStore is a full-fledged React E-Commerce Web Application (Global Level Stat
 
 **Backend webpage can be seen by using this URL:** https://codebook-mock-server-j8n3.onrender.com
 
+(To view the Backend Source Folder, Visit: https://github.com/arnobt78/eBookStore-Mock-Server )
+
 ## To Install Dependences
 
 Before launching this web application, be sure to install all required dependencies, which are listed in the package.json file.
@@ -40,6 +42,73 @@ With Restricted Route and run from different Port from another terminal: `npm js
 ## To Integrate JSON Web Tokens (JWT) for the Login in your Project
 
 Visit: https://jwt.io/#debugger-io
+
+## About Netlify (Frontend-Deployment)
+
+Visit: https://app.netlify.com/
+
+- Login using GitHub
+
+- Click on ‘Import from Git’
+
+- **Connect to Git provider > Github**
+
+- If the desired repository is not shown, click on ‘Configure the Netlify app on GitHub’
+
+- Repository Access > All Repository
+
+- Select the repository
+
+- Click on ‘Deploy site’
+
+**Note:** Deploying Process will take 2-5 minutes to be active on Netlify.
+
+**Error:** Check the log if you get an error > apply changes to the codebase > push them on ‘main’ branch.
+
+To set Environment Variable:
+
+- **Site settings > Build & deploy > Environment > Environment variables**
+
+https://docs.netlify.com/configure-builds/environment-variables/
+
+(Make sure to push new changes after setting env to make them effective)
+
+To change domain name:
+
+- Change domain name on Netlify through ‘Site Settings’
+
+404 Page Not Found Error:
+
+- https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router
+
+- https://www.netlify.com/blog/2019/01/16/redirect-rules-for-all-how-to-configure-redirects-for-your-static-site/
+
+## About Render (Backend-Deployment)
+
+Visit: https://render.com/
+
+Locally
+
+- Create a folder ‘codebook-mock-server’
+
+- npm init
+
+- Install express, json-server, json-server-auth
+
+- Create index.js, add ‘data’ folder and .gitignore
+
+- Push to Github
+
+On Render, 
+
+- Click on ‘New’ > ‘Web Service’
+
+- Select the Git Repository and deploy 
+
+Note: Deploying Process will take 10-15 minutes to be active on Render.
+
+Error: Check the log if you get an error > apply changes to the codebase > push them on ‘main’ branch.
+
 
 ## Available Scripts
 
