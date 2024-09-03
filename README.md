@@ -1,6 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## eBookStore-ReactWebsite
+
+eBookStore is a full-fledged React E-Commerce Web Application (Global Level State Application) where you can place an order for codebooks. Frontend (deployed on Netlify) and Backend (deployed on Render) are separately developed here. Filter Properties, Search Option,  JSON-Server,  JSON-Server-Auth (User Login, Logout), JSON Web Tokens (JWT), Protected Routes, React-Toastify, Session Storage, Dark Mode Option, JSON API - Auth Service and Data Service, Log in as Guest, React Core, Hooks, TailwindCSS, Responsive Screen, Context, and Reducers have been used in this project.
+
+**Frontend webpage can be seen by using this URL:** https://ebookstore-arnob.netlify.app
+
+**Backend webpage can be seen by using this URL:** https://codebook-mock-server-j8n3.onrender.com
+
+## To Install Dependences
+
+Before launching this web application, be sure to install all required dependencies, which are listed in the package.json file.
+
+To install all dependences, run this command from your project folder: `npm install`
+
+## To Install NodeJS
+
+Make sure you have NodeJS installed in your machine first, The installation instructions are here: https://nodejs.org/en/
+
+## To Install React-Router 
+
+Open up your terminal and bootstrap a new React app by: `npx create-react-app`
+
+Then go to that project folder, and write this command via terminal from your project folder: `npm install react-router-dom`
+
+(For more details about React-Router, visit: https://reactrouter.com/en/main )
+
+## To Install json-server-npm and json-server-auth-npm
+
+Open up your terminal from your project folder and run: `npm install -D json-server json-server-auth`
+
+To run json-server: `npx json-server data/db.json`
+
+With Restricted Route and run from different Port from another terminal: `npm json-server data/db.json -m ./node_modules/json-server-auth -r data/routes.json --port 8000`
+
+(You must open a second terminal to run the json-server and json-server-auth via different Port number because the React app is already running on Port: 3000 on your localhost)
+
+(For more details, visit:  https://www.npmjs.com/package/json-server
+
+https://www.npmjs.com/package/json-server-auth )
+
+## To Install react-router-dom-npm
+
+Open up your terminal from your project folder and run: `npm i react-router-dom`
+
+(For more details, visit: https://www.npmjs.com/package/react-router-dom )
+
+## To Integrate JSON Web Tokens (JWT) for the Login in your Project
+
+Visit: https://jwt.io/#debugger-io
 
 ## Available Scripts
 
